@@ -1,0 +1,12 @@
+CYTagline = "a lame example Cydget that renders Camera photos";
+CYPlugin = "WebCycriptLockScreen";
+CYVersionFilter = (800);
+
+CYConfiguration = {
+    // these are actually relative URLs: you can specify arbitrary http:// or file:///
+    Homepage = "LockBackground.html";
+    Background = "Background.html";
+    Scrollable = NO;
+    MediaControls = YES;
+    NotificationList = YES;
+};
