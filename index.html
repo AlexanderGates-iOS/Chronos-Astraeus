@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Background</title>
+		<meta name="author" content="Alexander" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="author" content="cTn" />
+        <link type="text/css" rel="stylesheet" href="css/style.css" media="all" />
+        <script src="js/functions.js" type="text/javascript"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script>document.documentElement.className = 'js';</script>
+	</head>
+	<body>
+		<main>
+			<div class="content">
+				<canvas id="scene"></canvas>
+			</div>
+		</main>
+		<script src="js/function.js"></script>
+	</body>
+	<body onload="initiate(); orbLoad();">
+			<div class="orbitHandle">
+				<canvas class="orbLines" id="orbLines" width="1600" height="1600"></canvas>
+				<canvas class="orb1" id="orb1" width="604" height="604"></canvas>
+				<canvas class="orb1MA" id="orb1MA" height="56" width="56"></canvas>
+				<canvas class="orb2" id="orb2" width="816" height="816"></canvas>
+				<canvas class="orb3" id="orb3" width="860" height="860"></canvas>
+				<canvas class="orb4" id="orb4" width="1244" height="1244"></canvas>
+				<canvas class="orb4MA" id="orb4MA" width="156" height="156"></canvas>
+				<canvas class="orb5" id="orb5" height="1560" width="1560"></canvas>
+				<canvas class="orb5MA" id="orb5MA" height="176" width="176"></canvas>
+				<canvas class="orb5MB" id="orb5MB" height="176" width="176"></canvas>
+				<canvas class="orb5MC" id="orb5MC" height="176" width="176"></canvas>
+				<canvas class="orb5MD" id="orb5MD" height="176" width="176"></canvas>
+				<canvas class="orb6" id="orb6" height="60" width="60"></canvas>
+			</div>
+			<div id="main-wrapper">
+				<div id="center">
+					<div id="am_pm"></div>
+					<div id="date"></div>
+					<div id="day"></div>
+				</div>
+			<div id="circles">
+					<div id="minutes-c">
+						<img src="Images/minutes640sc.png" alt=""></img>
+					</div>
+					<div id="hours-c">
+						<img src="Images/hours640sc.png" alt=""></img>
+					</div>
+					<div id="seconds-c">
+						<img class="seconds-c" /></img>
+						<!--<img src="Images/seconds640sc.png" alt=""></img>-->
+						<!--<img src="Images/nseconds640sc.png" alt=""></img>-->
+					</div>
+				</div>
+			</div>
+		</body>
+</html>
